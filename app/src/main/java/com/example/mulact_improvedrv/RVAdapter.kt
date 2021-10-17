@@ -17,7 +17,7 @@ class RVAdapter(var s:ArrayList<person>): RecyclerView.Adapter<RVAdapter.ItemVie
         holder.binding.apply {
             cardtitle.text = "name: ${rv.name}"
             carddesc.text = "location: ${rv.location}"
-            cat.text = "mobil: ${rv.mobile}"
+            cat.text = "mobile: ${rv.mobile}"
             date.text = "email: ${rv.email}"
         }
     }
